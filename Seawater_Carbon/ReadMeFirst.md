@@ -31,13 +31,13 @@ Alter the values of pCO2 for other atmospheric concentrations and alkalinity (Al
 of carbon species and pH of the surface ocean.
 
 Run the file in a command prompt:
-
+```
 python carbon_sw_eq.py
-
+```
 or, inside a python environment:
-
+```
 >>>from carbon_sw_eq import *
-
+```
 Or open with a IDE such as Spyder and run within it.
 
 **constants.py**
@@ -46,26 +46,26 @@ This function computes the equilibrium constants necessary to solve the ocean ca
 and salinity.
 
 To run the function in a Python environment:
-
+```
 >>>from constants import *
 >>>constants(25, 35)
-
+```
 To show the help message inside the function:
-
+```
 >>>help(constants)
-
+```
 **constants_P.py**
 
 Computes the constants for the carbonate system in the ocean, including calcite and aragonite solubility constant, for surface
 and deep waters. The inputs are salinity, temperature and pressure.
 
 To run the function in a Python environment:
-
+```
 >>>from constants_P import *
 >>>constants_P(25, 35, 600)
-
+```
 To show the help message inside the function:
-
+```
 >>>help(constants_P)
-
+```
 
