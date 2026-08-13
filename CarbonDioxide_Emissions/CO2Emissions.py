@@ -63,7 +63,7 @@ ax.plot(x, y1, 'r--', label='model: a=%5.3f, b=%5.3f, c=%5.3f' % tuple(popt))
 ax.plot(x[2:], y2, 'g--', label='model: a=%5.3f, b=%5.3f' % tuple(popt2))
 ax.legend()
 
-# Limite mínimo e máximo do PETM Pg de C
+# Minimum and maximum limit for PETM in Pg of C
 y_min = np.log10(3000)
 y_max = np.log10(7126)
 
