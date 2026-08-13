@@ -1,5 +1,5 @@
 
-Use of the Python functions:
+#Use of the Python functions:
 
 These functions are required to compute the equilibrium distribution of carbon species and the pH of ocean waters given
 a value of the alkalinity (as micro-mol/kg of seawater) and atmospheric concentration of CO2 (in ppm).
