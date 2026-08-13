@@ -4,7 +4,7 @@ Use of the Python functions:
 These functions are required to compute the equilibrium distribution of carbon species and the pH of ocean waters given
 a value of the alkalinity (as micro-mol/kg of seawater) and atmospheric concentration of CO2 (in ppm).
 
-*carbon_sw_eq.py*
+carbon_sw_eq.py
 
 This is the main file. It can be edited to change the model conditions.
 
