@@ -1,5 +1,5 @@
 
-##Use of the Python functions:
+## Use of the Python functions:
 
 These functions are required to compute the equilibrium distribution of carbon species and the pH of ocean waters given
 a value of the alkalinity (as micro-mol/kg of seawater) and atmospheric concentration of CO2 (in ppm).
@@ -8,16 +8,16 @@ a value of the alkalinity (as micro-mol/kg of seawater) and atmospheric concentr
 
 This is the main file. It can be edited to change the model conditions.
 
-# Constants for the equilibrium of the carbonate system in seawater
-# Salinity 35 permil
-# Temp 25
+#Constants for the equilibrium of the carbonate system in seawater
+#Salinity 35 permil
+#Temp 25
 K0 = 10**-1.5468
 K1 = 1.4626e-06
 K2 = 1.1082e-09
 Kw = 6.0628e-14
 KB = 2.5266e-09
 BT = 4.160e-04
-# Values of pCO2 and Alk (can be changed)
+#Values of pCO2 and Alk (can be changed)
 pCO2 = 418   # ppm
 Alk = 2300   # umol/kg
 
